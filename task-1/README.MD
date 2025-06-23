@@ -1,4 +1,4 @@
-# Task 1: What I Learned About Scanning My Local Network
+# Task 1: Scan Your Local Network for Open Ports
 
 After working through this task, I’ve got a much better grasp of how network scanning works and why it matters for security. Here’s a quick summary of what stood out to me:
 
