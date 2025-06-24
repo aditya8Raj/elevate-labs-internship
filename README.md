@@ -4,8 +4,8 @@ This repository contains my work for the 1 month Elevate Labs Internship. Each f
 
 ## Contents
 
-- [`task-1`](task-1/): Scanning my local network for open ports using Nmap. Includes step-by-step workflow, results, and key takeaways.
-- _(I'll add more tasks as I complete them, today was the first day of my internship.)_
+- [`task-1`](task-1/): Scan Your Local Network for Open Ports
+- [`task-2`](task-2/): Analyze a Phishing Email Sample
 
 ## About this repo
 
