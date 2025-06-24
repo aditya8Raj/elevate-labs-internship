@@ -1,0 +1,9 @@
+From: Netflix Support <support@netflix-cancellation-alerts.com>
+To: user@example.com
+Subject: Urgent: Your Account Will Be Deactivated!
+
+Dear Customer,
+
+We noticed unusual activity in your Netflix account. To restore access, confirm your details immediately:
+
+👉 https://netflix.com-loginverify-securityupdate.icu
