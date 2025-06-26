@@ -6,6 +6,7 @@ This repository contains my work for the 1 month Elevate Labs Internship. Each f
 
 - [`task-1`](task-1/): Scan Your Local Network for Open Ports
 - [`task-2`](task-2/): Analyze a Phishing Email Sample
+- [`task-3`](task-3/): Perform a Basic Vulnerability Scan on Your PC
 
 ## About this repo
 
