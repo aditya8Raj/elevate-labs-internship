@@ -1,0 +1,44 @@
+VULNERABILITY SCAN REPORT
+
+==============================
+
+
+Severity     : CRITICAL
+Plugin       : Apache Log4j SEoL (<= 1.x)
+CVSS Score   : 10.0
+CVE          : N/A
+Description  : According to its version, Apache Log4j is less than or equal to 1.x. It is, therefore, no longer maintained by its vendor or provider.
+
+Lack of support implies that no new security patches for the product will be released by the vendor. As a result, it may contain security vulnerabilities.
+Solution     : Upgrade to a version of Apache Log4j that is currently supported.
+------------------------------
+
+Severity     : HIGH
+Plugin       : Apache Log4j 1.x Multiple Vulnerabilities
+CVSS Score   : 9.0
+CVE          : CVE-2019-17571
+Description  : According to its self-reported version number, the installation of Apache Log4j on the remote host is 1.x and is no longer supported. Log4j reached its end of life prior to 2016. Additionally, Log4j 1.x is affected by multiple vulnerabilities, including :
+
+  - Log4j includes a SocketServer that accepts serialized log events and deserializes them without verifying whether     the objects are allowed or not. This can provide an attack vector that can be exploited. (CVE-2019-17571)
+
+  - Improper validation of certificate with host mismatch in Apache Log4j SMTP appender. This could allow an SMTPS     connection to be intercepted by a man-in-the-middle attack which could leak any log messages sent through that     appender. (CVE-2020-9488)
+
+  - JMSSink uses JNDI in an unprotected manner allowing any application using the JMSSink to be vulnerable if it is     configured to reference an untrusted site or if the site referenced can be accesseed by the attacker.
+    (CVE-2022-23302)
+
+Lack of support implies that no new security patches for the product will be released by the vendor. As a result, it is likely to contain security vulnerabilities.
+Solution     : Upgrade to a version of Apache Log4j that is currently supported.
+
+Upgrading to the latest versions for Apache Log4j is highly recommended as intermediate versions / patches have known high severity vulnerabilities and the vendor is updating their advisories often as new research and knowledge about the impact of Log4j is discovered. Refer to https://logging.apache.org/log4j/2.x/security.html for the latest versions.
+------------------------------
+
+Severity     : HIGH
+Plugin       : Python Library Tornado 6.5.0 DoS
+CVSS Score   : 7.8
+CVE          : CVE-2025-47287
+Description  : The detected version of the Tornado Python package, Tornado, is prior to 6.4.2.
+It is therefore affected by a DoS vulnerability that happens When Tornado's multipart/form-data parser encounters certain errors, it logs a warning but continues trying to parse the remainder of the data. This allows remote attackers to generate an extremely high volume of logs, constituting a DoS attack. This DoS is compounded by the fact that the logging subsystem is synchronous.:
+
+Note that Nessus has not tested for this issue but has instead relied only on the application's self-reported version number.
+Solution     : Upgrade to Tornado version 6.5.0 or later.
+------------------------------
