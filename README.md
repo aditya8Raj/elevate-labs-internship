@@ -9,6 +9,7 @@ This repository contains my work for the 1 month Elevate Labs Internship. Each f
 - [`task-3`](task-3/): Perform a Basic Vulnerability Scan on Your PC
 - [`task-4`](task-4/): Setup and Use a Firewall on Windows/Linux
 - [`task-5`](task-5/): Capture and Analyze Network Traffic using Wireshark
+- [`task-6`](task-6/): Create a Strong Password and Evaluate Its Strength
 
 ## About this repo
 
