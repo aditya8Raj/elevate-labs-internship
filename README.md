@@ -11,6 +11,7 @@ This repository contains my work for the 1 month Elevate Labs Internship. Each f
 - [`task-5`](task-5/): Capture and Analyze Network Traffic using Wireshark
 - [`task-6`](task-6/): Create a Strong Password and Evaluate Its Strength
 - [`task-7`](task-7/): Identify and Remove Suspicious Browser Extensions
+- [`task-8`](task-8/): Working with VPNs
 
 ## About this repo
 
