@@ -13,6 +13,8 @@ This repository contains my work for the 1 month Elevate Labs Internship. Each f
 - [`task-7`](task-7/): Identify and Remove Suspicious Browser Extensions
 - [`task-8`](task-8/): Working with VPNs
 
+- [Password Strength Analyzer with Custom Wordlist Generator](https://github.com/aditya8Raj/password-strength-analyzer): Final project for the internship
+
 ## About this repo
 
 - Each task folder has its own `README.md` with a summary of what I learned.
